@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Loader */
+.loader-div {
+  height: 100vh;
+}
+
+.loader-div-light {
+  background-color: #00000013;
+}
+
+.loader-div-dark {
+  background-color: #000000ea;
+}
+
+.pinwheel {
+  --uib-size: 8vw;
+  --uib-speed: 0.8s;
+  --uib-forlight-color: rgb(19, 19, 19);
+  --uib-fordark-color: rgb(255, 255, 255);
+  --uib-line-weight: 0.5vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--uib-size);
+  width: var(--uib-size);
+}
+
+.pinwheel__line-light {
+  background-color: var(--uib-forlight-color);
+}
+
+.pinwheel__line-dark {
+  background-color: var(--uib-fordark-color);
+}
+
+.pinwheel__line {
+  position: absolute;
+  top: calc(50% - var(--uib-line-weight) / 2);
+  left: 0;
+  height: var(--uib-line-weight);
+  width: 100%;
+  border-radius: calc(var(--uib-line-weight) / 2);
+  animation: rotate81232 var(--uib-speed) ease-in-out infinite;
+}
+
+.pinwheel__line:nth-child(2) {
+  animation-delay: calc(var(--uib-speed) * 0.075);
+  opacity: 0.8;
+}
+
+.pinwheel__line:nth-child(3) {
+  animation-delay: calc(var(--uib-speed) * 0.15);
+  opacity: 0.6;
+}
+
+.pinwheel__line:nth-child(4) {
+  animation-delay: calc(var(--uib-speed) * 0.225);
+  opacity: 0.4;
+}
+
+.pinwheel__line:nth-child(5) {
+  animation-delay: calc(var(--uib-speed) * 0.3);
+  opacity: 0.2;
+}
+
+.pinwheel__line:nth-child(6) {
+  animation-delay: calc(var(--uib-speed) * 0.375);
+  opacity: 0.1;
+}
+
+@keyframes rotate81232 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+/* Background */
+.background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.background-top {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.morning {
+  background-image: url("../../public/assets/images/morning.jpg");
+}
+
+.afternoon {
+  background-image: url("../../public/assets/images/afternoon.jpg");
+}
+
+.evening {
+  background-image: url("../../public/assets/images/evening.jpg");
+}
+
+.night {
+  background-image: url("../../public/assets/images/night.jpg");
+}
+
+/* Clock Div */
+main {
+  height: 100vh;
+  color: #fff;
+}
+
+.clock-app {
+  position: relative;
+  bottom: 0;
+  transition: 0.6s;
+}
+
+.quote-author > h6 {
+  font-weight: 700;
+}
+
+.random-quote-button {
+  border: none;
+  background-color: transparent;
+}
+
+.rotate-refresh {
+  animation: rotateRefresh 0.5s;
+}
+
+@keyframes rotateRefresh {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+.greet {
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.temperature {
+  font-weight: 600;
+}
+
+.moon {
+  animation: rotateMoon 7s infinite linear;
+}
+
+.sun {
+  animation: rotateSun 12s infinite linear;
+}
+
+@keyframes rotateMoon {
+  from {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(50deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rotateSun {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.digital-clock {
+  font-weight: 700;
+}
+
+.clock-info > h6 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.city {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.additional-div-button {
+  border: none;
+  border-radius: 2.8rem;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.additional-div-button:hover {
+  box-shadow: -3px 3px 5px 0 rgba(0, 0, 0, 0.315);
+}
+
+.arrow-icon {
+  transition: 0.7s;
+  transform: rotate(180deg);
+}
+
+.rotate {
+  transform: rotate(0deg);
+}
+
+/* Additional Div */
+.additional {
+  width: 100%;
+  height: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  transition: 0.6s;
+}
+
+.additional-info-night {
+  background: rgba(0, 0, 0, 0.747);
+  color: #fff;
+  backdrop-filter: blur(20px);
+}
+
+.additional-info-day {
+  background: rgba(255, 255, 255, 0.75);
+  color: #000;
+  backdrop-filter: blur(40.772px);
+}
+
+.additional-info > p {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.additional-info > h6 {
+  font-weight: 700;
+  letter-spacing: 1px;
+}

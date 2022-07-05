@@ -1,0 +1,291 @@
+@media only screen and (min-width: 1024px) {
+  /* Clock Div */
+  .clock-up {
+    bottom: 20em;
+  }
+
+  .quotes {
+    height: 15em;
+  }
+
+  .quotes-row {
+    padding-top: 3em;
+  }
+
+  .quote-author > p {
+    font-size: 1.1em;
+  }
+
+  .quote-author > h6 {
+    font-size: 1.1em;
+  }
+
+  .random-quote-button > img {
+    width: 1.4em;
+  }
+
+  .daytime-icon-div {
+    margin-right: 1.2em;
+  }
+
+  .daytime-icon {
+    width: 1.6em;
+  }
+
+  .greet {
+    margin: 0;
+    font-size: 1.3em;
+  }
+
+  .digital-clock {
+    font-size: 13em;
+    margin: 0;
+  }
+
+  .clock-info {
+    margin-left: 1.2em;
+  }
+
+  .clock-info > h6 {
+    font-size: 2em;
+    margin: 0;
+  }
+
+  .city {
+    font-size: 1.6em;
+  }
+
+  .additional-div-button {
+    padding: 0.5em;
+    width: 9em;
+  }
+
+  /* Additional Div */
+  .additional > .container {
+    height: 100%;
+  }
+
+  .additional > .container > .row {
+    padding: 5em 3em;
+    height: 100%;
+  }
+
+  .additional-info:nth-child(2),
+  .additional-info:nth-child(4) {
+    padding-left: 3em;
+  }
+
+  .additional-info > p {
+    font-size: 1.2em;
+  }
+
+  .additional-info > h6 {
+    font-size: 3em;
+  }
+
+  .more {
+    height: 25em;
+  }
+
+  /* Height */
+  @media only screen and (min-height: 800px) {
+    /* Clock Div */
+    .clock {
+      margin-top: 5em;
+    }
+  }
+
+  @media only screen and (min-height: 900px) {
+    /* Clock Div */
+    .clock {
+      margin-top: 8em;
+    }
+  }
+
+  @media only screen and (min-height: 960px) {
+    /* Clock Div */
+    .clock {
+      margin-top: 10em;
+    }
+
+    .quotes {
+      height: 20em;
+    }
+
+    .quotes-row {
+      padding-top: 5em;
+    }
+  }
+
+  @media only screen and (min-height: 1050px) {
+    /* Clock Div */
+    .clock {
+      margin-top: 11em;
+    }
+
+    .quotes {
+      height: 22em;
+    }
+
+    .quotes-row {
+      padding-top: 7em;
+    }
+  }
+
+  /* Width */
+  @media only screen and (max-width: 1200px) {
+    /* Clock Div */
+    .quote-author > p {
+      font-size: 1.1em;
+    }
+
+    .quote-author > h6 {
+      font-size: 1.1em;
+    }
+
+    .random-quote-button > img {
+      width: 1.3em;
+    }
+
+    .daytime-icon {
+      width: 1.6em;
+    }
+
+    .greet {
+      font-size: 1.2em;
+    }
+
+    .digital-clock {
+      font-size: 12em;
+    }
+
+    .clock-info > h6 {
+      font-size: 1.8em;
+    }
+
+    .city {
+      font-size: 1.5em;
+    }
+
+    .additional-div-button {
+      padding: 0.8em 0.7em;
+      width: 8.5em;
+      font-size: 1em;
+    }
+
+    .arrow-icon {
+      width: 1.8em;
+    }
+
+    /* Additional Div */
+    .additional > .container > .row {
+      padding: 5em;
+    }
+
+    .additional-info:nth-child(2),
+    .additional-info:nth-child(4) {
+      padding-left: 5em;
+    }
+
+    .additional-info > p {
+      font-size: 1.1em;
+    }
+
+    .additional-info > h6 {
+      font-size: 2.6em;
+    }
+  }
+
+  @media only screen and (min-width: 1650px) {
+    /* Clock Div */
+    .quote-author > p {
+      font-size: 1.2em;
+    }
+
+    .quote-author > h6 {
+      font-size: 1.3em;
+    }
+
+    .daytime-icon {
+      width: 1.8em;
+    }
+
+    .greet {
+      font-size: 1.4em;
+    }
+
+    .digital-clock {
+      font-size: 15em;
+    }
+
+    .clock-info > h6 {
+      font-size: 2.5em;
+    }
+
+    .city {
+      font-size: 1.7em;
+    }
+
+    .additional-div-button {
+      padding: 0.5em;
+      width: 11em;
+      font-size: 1.3em;
+    }
+
+    .arrow-icon {
+      width: 2.5em;
+    }
+  }
+
+  @media only screen and (min-width: 1800px) {
+    /* Clock Div */
+    .quotes {
+      height: 17em;
+    }
+
+    .quote-author > p {
+      font-size: 1.35em;
+    }
+
+    .quote-author > h6 {
+      font-size: 1.4em;
+    }
+
+    .daytime-icon {
+      width: 2.1em;
+    }
+
+    .greet {
+      font-size: 1.5em;
+    }
+
+    .digital-clock {
+      font-size: 16em;
+    }
+
+    .clock-info > h6 {
+      font-size: 2.8em;
+    }
+
+    .city {
+      font-size: 2em;
+    }
+
+    /* Additional Div */
+    .additional > .container > .row {
+      padding: 4em 3em;
+    }
+
+    .additional-info > p {
+      font-size: 1.4em;
+    }
+
+    .additional-info > h6 {
+      font-size: 3.4em;
+    }
+
+    .more {
+      height: 30em;
+    }
+  }
+}

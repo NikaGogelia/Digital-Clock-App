@@ -1,0 +1,315 @@
+@media only screen and (max-width: 1024px) {
+  /* Clock Div */
+  .clock-up {
+    bottom: 15em;
+  }
+
+  .quotes {
+    height: 20em;
+  }
+
+  .quotes-row {
+    padding-top: 5em;
+  }
+
+  .quote-author > p {
+    font-size: 1em;
+  }
+
+  .quote-author > h6 {
+    font-size: 1em;
+  }
+
+  .random-quote-button > img {
+    width: 1.2em;
+  }
+
+  .daytime-icon {
+    width: 1.4em;
+  }
+
+  .daytime-icon-div {
+    margin-right: 1em;
+  }
+
+  .greet {
+    font-size: 1em;
+  }
+
+  .digital-clock {
+    font-size: 11em;
+    margin: 0;
+  }
+
+  .clock-info {
+    margin-left: 1.2em;
+  }
+
+  .clock-info > h6 {
+    font-size: 1.5em;
+  }
+
+  .city {
+    font-size: 1.4em;
+  }
+
+  .additional-div-button {
+    padding: 0.8em;
+    width: 8em;
+    font-size: 0.8em;
+  }
+
+  .arrow-icon {
+    width: 1.5em;
+  }
+
+  /* Additional Div */
+  .additional > .container {
+    height: 100%;
+  }
+
+  .additional > .container > .row {
+    padding: 6em;
+    height: 100%;
+  }
+
+  .additional-info:nth-child(2),
+  .additional-info:nth-child(4) {
+    padding-left: 5em;
+  }
+
+  .additional-info > p {
+    font-size: 1em;
+  }
+
+  .additional-info > h6 {
+    font-size: 2.3em;
+  }
+
+  .more {
+    height: 28em;
+  }
+
+  /* Width */
+  @media only screen and (max-width: 991px) {
+    /* Clock Div */
+    .clock {
+      padding-bottom: 5vh;
+    }
+
+    .quotes {
+      height: 18em;
+    }
+
+    .quotes-row {
+      padding-top: 4em;
+    }
+
+    .quote-author > p {
+      font-size: 0.8em;
+    }
+
+    .quote-author > h6 {
+      font-size: 0.8em;
+    }
+
+    .random-quote-button > img {
+      width: 1em;
+    }
+
+    .daytime-icon {
+      width: 1.2em;
+    }
+
+    .daytime-icon-div {
+      margin-right: 0.8em;
+    }
+
+    .greet {
+      font-size: 0.8em;
+    }
+
+    .digital-clock {
+      font-size: 10em;
+      margin: 0;
+    }
+
+    .clock-info {
+      margin-left: 1em;
+    }
+
+    .clock-info > h6 {
+      font-size: 1.3em;
+    }
+
+    .city {
+      font-size: 1.1em;
+    }
+
+    .additional-button-div {
+      padding-top: 1.2em;
+    }
+
+    .additional-div-button {
+      padding: 0.8em;
+      width: 8em;
+      font-size: 0.7em;
+    }
+
+    .arrow-icon {
+      width: 1.5em;
+    }
+
+    /* Additional Div */
+    .additional > .container {
+      height: 100%;
+    }
+
+    .additional > .container > .row {
+      padding: 3.5em 6em;
+      height: 100%;
+    }
+
+    .additional-info:nth-child(2),
+    .additional-info:nth-child(4) {
+      padding-left: 3.5em;
+    }
+
+    .additional-info > p {
+      font-size: 0.8em;
+    }
+
+    .additional-info > h6 {
+      font-size: 1.9em;
+    }
+
+    .more {
+      height: 40vh;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* Additional Div */
+    .additional > .container {
+      height: 100%;
+    }
+
+    .additional > .container > .row {
+      padding: 3em 0;
+      height: 100%;
+    }
+
+    .additional-info:nth-child(1),
+    .additional-info:nth-child(2),
+    .additional-info:nth-child(3),
+    .additional-info:nth-child(4) {
+      padding: 0 3em;
+    }
+
+    .additional-info > p {
+      font-size: 0.6em;
+    }
+
+    .additional-info > h6 {
+      font-size: 1em;
+    }
+
+    .more {
+      height: 35vh;
+    }
+  }
+
+  @media only screen and (max-width: 516px) {
+    /* Clock Div */
+    .clock {
+      padding-bottom: 5vh;
+    }
+
+    .clock-up {
+      bottom: 13em;
+    }
+
+    .quotes {
+      height: 15em;
+    }
+
+    .quotes-row {
+      padding-top: 3em;
+    }
+
+    .quote-author > p {
+      font-size: 0.7em;
+    }
+
+    .quote-author > h6 {
+      font-size: 0.7em;
+    }
+
+    .random-quote-button > img {
+      width: 0.95em;
+    }
+
+    .daytime-icon {
+      width: 1em;
+    }
+
+    .daytime-icon-div {
+      margin-right: 0.6em;
+    }
+
+    .greet {
+      font-size: 0.65em;
+    }
+
+    .digital-clock {
+      font-size: 8em;
+      margin: 0;
+    }
+
+    .clock-info {
+      margin-left: 1em;
+    }
+
+    .clock-info > h6 {
+      font-size: 1em;
+    }
+
+    .city {
+      font-size: 0.9em;
+    }
+
+    .additional-button-div {
+      padding-top: 1em;
+    }
+
+    .additional-div-button {
+      padding: 0.7em;
+      width: 8em;
+      font-size: 0.65em;
+    }
+
+    .arrow-icon {
+      width: 1.5em;
+    }
+
+    /* Additional Div */
+    .additional > .container > .row {
+      padding: 3em 0;
+    }
+
+    .additional-info:nth-child(1),
+    .additional-info:nth-child(2),
+    .additional-info:nth-child(3),
+    .additional-info:nth-child(4) {
+      padding: 0 4em;
+    }
+
+    .additional-info > p {
+      font-size: 0.5em;
+    }
+
+    .additional-info > h6 {
+      font-size: 0.9em;
+    }
+  }
+}

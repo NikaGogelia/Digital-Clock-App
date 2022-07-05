@@ -1,0 +1,102 @@
+@media only screen and (max-width: 425px) {
+  /* Clock Div */
+  .clock {
+    padding-bottom: 7vh;
+  }
+
+  .clock-up {
+    bottom: 14em;
+  }
+
+  .quotes {
+    height: 15em;
+  }
+
+  .quotes-row {
+    padding-top: 4em;
+  }
+
+  .quote-author > p {
+    font-size: 0.65em;
+  }
+
+  .quote-author > h6 {
+    font-size: 0.65em;
+  }
+
+  .random-quote-button > img {
+    width: 0.8em;
+  }
+
+  .daytime-icon {
+    width: 0.8em;
+  }
+
+  .daytime-icon-div {
+    margin-right: 0.6em;
+  }
+
+  .greet {
+    font-size: 0.55em;
+  }
+
+  .digital-clock {
+    font-size: 7em;
+    margin: 0;
+  }
+
+  .clock-info {
+    margin-left: 1em;
+  }
+
+  .clock-info > h6 {
+    font-size: 0.9em;
+  }
+
+  .city {
+    font-size: 0.8em;
+  }
+
+  .additional-button-div {
+    padding-top: 2em;
+  }
+
+  .additional-div-button {
+    padding: 0.8em;
+    width: 8em;
+    font-size: 0.6em;
+  }
+
+  .arrow-icon {
+    width: 1.6em;
+  }
+
+  /* Additional Div */
+  .additional > .container {
+    height: 100%;
+  }
+
+  .additional > .container > .row {
+    padding: 3em 0;
+    height: 100%;
+  }
+
+  .additional-info:nth-child(1),
+  .additional-info:nth-child(2),
+  .additional-info:nth-child(3),
+  .additional-info:nth-child(4) {
+    padding: 0 3em;
+  }
+
+  .additional-info > p {
+    font-size: 0.45em;
+  }
+
+  .additional-info > h6 {
+    font-size: 0.7em;
+  }
+
+  .more {
+    height: 40vh;
+  }
+}
